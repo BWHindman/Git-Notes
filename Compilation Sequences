@@ -2,7 +2,7 @@
 Rayleigh Compilation
 
 make distclean (remove old compilation)
-./configure --CC=icc --FC=ifort    (may choose different compilers)
+./configure --CC=icc --FC=ifort    (may choose different compilers such as mpif90)
 make
 make install
 
