@@ -1,0 +1,3 @@
+To delete an obsolete branch
+git push --delete origin <branch> (This will delete the branch from the GitHub repository)
+git branch -d <branch>  (This will delete the local branch)
