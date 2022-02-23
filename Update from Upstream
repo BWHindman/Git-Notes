@@ -4,7 +4,7 @@ To update changes made on the shared repository:
 login on some machine
 git remote -v				(Shows the <origin> of the cloned repository and which upstream respository that was originally forked)
 git pull upstream <branch1>		(Pull down all changes from the upstream repository for the specified branch)
-git push origin <branch1>		(This updates my repository on GitHub)
+git push origin <branch1>		(This updates my repository on GitHub - need token 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)
 do pulls on all other machines
 
 
