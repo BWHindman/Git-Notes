@@ -2,7 +2,7 @@
 Rayleigh Compilation
 
 make distclean (remove old compilation)
-./configure --CC=icc --FC=mpif90
+./configure --CC=icc --FC=ifort (the fortran compiler was mpif90, I'm guessing that ifort is the correct one now)
 make
 make install
 
