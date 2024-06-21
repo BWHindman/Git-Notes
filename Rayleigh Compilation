@@ -1,0 +1,8 @@
+Compilation sequence for Rayleigh on Pleiades
+
+module purge
+module load comp-intel
+module load mpi-hpe
+./configure --FC=mpif90 --CC=icc  # select 'ALL'
+make -j
+make install
