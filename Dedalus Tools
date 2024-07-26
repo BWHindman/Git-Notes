@@ -1,0 +1,10 @@
+MAKE PNG FRAMES (on Pleiades)
+   Create a softlink of plot_b_slices.py & script_plot_slices which are in ~/Dedalus_stuff
+   qsub script_plot_slices
+
+MAKE MOVIES FROM FRAMES (on Linux shell on laptop)
+  Create a softlink of png2mp4.sh which is in Dedalus/scripts
+  bash png2mp4.sh "<frames_dir>/*png" output.mp4 fps
+    <frames_dir> = directory where the png files are stored
+    output.mp4   = name of movie file
+    fps          = frames per second (should be 30 or 60)
